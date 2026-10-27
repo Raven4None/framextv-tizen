@@ -1,0 +1,15 @@
+{
+  "name": "framextv-stremio-addon",
+  "version": "1.0.0",
+  "description": "Stremio Addon powered by FrameXTV multi-tier streaming resolvers (4K/1080p HLS & MP4 + Subtitles)",
+  "main": "src/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node test/verify.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
